@@ -2,19 +2,11 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'lib-first-lib',
-  template: `
-    <p>
-      first-lib works!
-    </p>
-  `,
-  styles: [
-  ]
+  templateUrl: './first-lib.component.html',
+  styleUrls: ['./first-lib.component.scss'],
 })
 export class FirstLibComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
