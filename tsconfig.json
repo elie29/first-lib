@@ -11,15 +11,10 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2015",
-    "lib": [
-      "es2018",
-      "dom"
-    ],
+    "lib": ["es2018", "dom"],
     "paths": {
-      "first-lib": [
-        "dist/first-lib/first-lib",
-        "dist/first-lib"
-      ]
+      "@elie29/first-lib/*": ["projects/first-lib/*", "projects/first-lib"],
+      "@elie29/first-lib": ["dist/first-lib/*", "dist/first-lib"]
     }
   },
   "angularCompilerOptions": {
