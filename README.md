@@ -41,3 +41,10 @@ from root project launch: npm run build
 ## publish
 
 cd dist/first-lib/ && npm publish --access public
+
+# Consume a module
+
+in order to consume a module, we add first the library:
+
+- npm i @elie29/first-lib
+- then import any module: import { FeatureAModule } from '@elie29/first-lib';
