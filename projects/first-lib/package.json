@@ -1,6 +1,22 @@
 {
-  "name": "first-lib",
-  "version": "0.0.1",
+  "name": "@elie29/first-lib",
+  "version": "1.0.6",
+  "author": "Elie NEHME",
+  "description": "First lib test",
+  "license": "MIT",
+  "main": "./dist/first-lib/index.js",
+  "typings": "./dist/first-lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elie29/first-lib"
+  },
+  "bugs": {
+    "url": "https://github.com/elie29/first-lib/issues"
+  },
+  "homepage": "https://github.com/elie29/first-lib",
+  "keywords": [
+    "first-lib"
+  ],
   "peerDependencies": {
     "@angular/common": "^9.1.12",
     "@angular/core": "^9.1.12",
